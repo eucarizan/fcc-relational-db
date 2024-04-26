@@ -6,6 +6,7 @@
     - [2: learn relational databases by building a mario database](#2-learn-relational-databases-by-building-a-mario-database)
     - [3: celestial bodies database](#3-celestial-bodies-database)
     - [4: learn bash scripting by building five programs](#4-learn-bash-scripting-by-building-five-programs)
+    - [5: build a student database pt 1](#5-build-a-student-database-pt-1)
 
 ## Courses
 ### 1: learn bash by building a boilerplate
@@ -36,4 +37,21 @@ learn more terminal commands and how to use them within bash scripts by creating
 5|[five.sh](./04_bash_five_programs/five.sh)|program to run other programs
 <hr/>
 
+### 5: build a student database pt 1
+create a bash script that uses sql to enter information about computer science students into postgresql
 
+#|name|description
+:-:|:-:|:--
+1|[students.csv](./05_student_database_pt1/students.csv)|students data
+2|[courses.csv](./05_student_database_pt1/courses.csv)|major and courses data
+3|[insert_data.sh](./05_student_database_pt1/insert_data.sh)|script to insert data from courses.csv and students.csv into students database
+4|[students.sql](./05_student_database_pt1/students.sql)|student database dump file
+
+bash keywords
+- IFS - internal field separator 
+
+sql keywords
+- truncate
+- pg_dump
+
+<hr/>
