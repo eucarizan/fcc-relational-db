@@ -7,7 +7,7 @@
     - [3: celestial bodies database](#3-celestial-bodies-database)
     - [4: learn bash scripting by building five programs](#4-learn-bash-scripting-by-building-five-programs)
     - [5: build a student database pt 1](#5-build-a-student-database-pt-1)
-
+    - [6: build a student database pt 2](#6-build-a-student-database-pt-2)
 ## Courses
 ### 1: learn bash by building a boilerplate
 learn terminal commands by creating a website boilerplate using only the command line.
@@ -55,3 +55,27 @@ sql keywords
 - pg_dump
 
 <hr/>
+
+### 6: build a student database pt 2
+complete student database while diving deeper into sql commands
+
+#|name|description
+:-:|:-:|:--
+1|[student_info.sh](./06_student_database_pt2/student_info.sh)|info about my computer science students from students database
+
+sql keywords
+- `where`
+  - operators (`<`, `>`, `<=`, `>=`, `=`, `!=`)
+  - conditional (`and`, `or`)
+  - patterns (`like`, `not like`, `ilike`, `%`, `_`)
+  - null (`is null`, `is not null`)
+- `order by`
+- `limit`
+- mathematic functions (`min`, `max`, `sum`, `avg`, `ceil`, `floor`, `round`, `count`)
+- other function (`distinct`)
+- `group by`, `having`
+- `as`
+- `join`s, `using`
+
+<hr/>
+
