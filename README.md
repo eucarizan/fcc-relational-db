@@ -90,6 +90,7 @@ create a bash script that enters information from world cup games into postgresq
 2|[insert_data.sh](./07_world_cup_database/insert_data.sh)|read the games data and insert to the tables
 3|[queries.sh](./07_world_cup_database/queries.sh)|database queris
 4|[expected_output.txt](./07_world_cup_database/expected_output.txt)|expected output from database queries
+5|[worldcup.sql](./07_world_cup_database/worldcup.sql)|dump of worldcup database
 
 <hr/>
 
