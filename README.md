@@ -8,6 +8,8 @@
     - [4: learn bash scripting by building five programs](#4-learn-bash-scripting-by-building-five-programs)
     - [5: build a student database pt 1](#5-build-a-student-database-pt-1)
     - [6: build a student database pt 2](#6-build-a-student-database-pt-2)
+    - [7: build a world cup database](#7-build-a-world-cup-database)
+
 ## Courses
 ### 1: learn bash by building a boilerplate
 learn terminal commands by creating a website boilerplate using only the command line.
@@ -78,4 +80,28 @@ sql keywords
 - `join`s, `using`
 
 <hr/>
+
+### 7: build a world cup database
+create a bash script that enters information from world cup games into postgresql, then query the database for useful statistics
+
+#|name|description
+:-:|:-:|:--
+1|[games.csv](./07_world_cup_database/games.csv)|games data
+2|[insert_data.sh](./07_world_cup_database/insert_data.sh)|read the games data and insert to the tables
+3|[queries.sh](./07_world_cup_database/queries.sh)|database queris
+4|[expected_output.txt](./07_world_cup_database/expected_output.txt)|expected output from database queries
+
+<hr/>
+
+<!--
+
+###
+
+
+#|name|description
+:-:|:-:|:--
+|[](./)|
+
+<hr/>
+-->
 
