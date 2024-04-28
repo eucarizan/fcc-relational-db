@@ -9,6 +9,7 @@
     - [5: build a student database pt 1](#5-build-a-student-database-pt-1)
     - [6: build a student database pt 2](#6-build-a-student-database-pt-2)
     - [7: build a world cup database](#7-build-a-world-cup-database)
+    - [8: build a kitty ipsum translator](#8-build-a-kitty-ipsum-translator)
 
 ## Courses
 ### 1: learn bash by building a boilerplate
@@ -91,6 +92,15 @@ create a bash script that enters information from world cup games into postgresq
 3|[queries.sh](./07_world_cup_database/queries.sh)|database queris
 4|[expected_output.txt](./07_world_cup_database/expected_output.txt)|expected output from database queries
 5|[worldcup.sql](./07_world_cup_database/worldcup.sql)|dump of worldcup database
+
+<hr/>
+
+### 8: build a kitty ipsum translator
+learn some more complex commands, and the detials of how commands work
+
+#|name|description
+:-:|:-:|:--
+|[](./)|
 
 <hr/>
 
