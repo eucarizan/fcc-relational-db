@@ -4,7 +4,7 @@ echo -e "set relativenumber\nset number\nset shiftwidth=2\nset autoindent" > ~/.
 # add check if exists
 echo '#!/bin/bash' > append_task.sh 
 echo 'tail -n1 /workspace/.bash_history >> task.sh' >> append_task.sh
-echo -e "if [[ \$1 ]]; then\n  sed -ri \"\$s/(.*)/\1 \$1/\" task.sh\nfi" >> append_task.sh
+echo -e "if [[ \$1 ]]; then\n  sed -ri \"\\\$s/(.*)/\1 \$1/\" task.sh\nfi" >> append_task.sh
 chmod +x append_task.sh
 
 echo '#!/bin/bash' > delete_last_line.sh 
