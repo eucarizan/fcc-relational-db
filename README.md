@@ -51,11 +51,11 @@ create a bash script that uses sql to enter information about computer science s
 4|[students.sql](./05_student_database_pt1/students.sql)|student database dump file
 
 bash keywords
-- IFS - internal field separator 
+- `IFS` - internal field separator 
 
 sql keywords
-- truncate
-- pg_dump
+- `truncate`
+- `pg_dump`
 
 <hr/>
 
@@ -100,7 +100,42 @@ learn some more complex commands, and the detials of how commands work
 
 #|name|description
 :-:|:-:|:--
-|[](./)|
+1|[kitty_ipsum_1.txt](./08_kitty_ipsum_translator/kitty_ipsum_1.txt)|input file 1
+2|[kitty_ipsum_2.txt](./08_kitty_ipsum_translator/kitty_ipsum_2.txt)|input file 2
+3|[kitty_info.txt](./08_kitty_ipsum_translator/kitty_info.txt)|information about the input files
+4|[translate.sh](./08_kitty_ipsum_translator/translate.sh)|script to translate some words from input files
+5|[doggy_ipsum_1.txt](./08_kitty_ipsum_translator/doggy_ipsum_1.txt)|output file 1
+6|[doggy_ipsum_2.txt](./08_kitty_ipsum_translator/doggy_ipsum_2.txt)|output file 2
+
+bash keywords
+- redirect
+  - `>` write to file
+  - `>>` append to file
+  - `<` as input
+  - `|` pipe
+  - `1>` stdout
+  - `2>` stderr
+- `wc`
+  - options
+    - `-l` lines
+    - `-w` words
+    - `-m` characters
+- `grep`
+  - options
+    - `--color` highlight searched words
+    - `-c` count matching lines
+    - `-o` only print matched parts of a matching line
+    - `-n` prefix each line of output with line number 
+    - `-E` regex matcher
+- `sed`
+  - flag
+    - `i` ignore case
+    - `g` global, all instances of matched pattern
+  - options
+    - `-E` regex matcher 
+- `diff`
+  - options
+    - `--color` differentiate color from which file
 
 <hr/>
 
