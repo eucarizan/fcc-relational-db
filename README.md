@@ -10,6 +10,7 @@
     - [6: build a student database pt 2](#6-build-a-student-database-pt-2)
     - [7: build a world cup database](#7-build-a-world-cup-database)
     - [8: build a kitty ipsum translator](#8-build-a-kitty-ipsum-translator)
+    - [9: build a bike rental shop](#9-build-a-bike-rental-shop)
 
 ## Courses
 ### 1: learn bash by building a boilerplate
@@ -139,9 +140,21 @@ bash keywords
 
 <hr/>
 
+### 9: build a bike rental shop
+build an interactive bash program that stores rental information for your bike rental shop using postgresql
+
+#|name|description
+:-:|:-:|:--
+1|[bike-shop.sh](./09_bike_rental_shop/bike-shop.sh)|bike rental bash program
+
+bash keywords
+- `case`
+
+<hr/>
+
 <!--
 
-###
+### 
 
 
 #|name|description
