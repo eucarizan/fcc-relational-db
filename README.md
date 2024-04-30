@@ -12,6 +12,7 @@
     - [8: build a kitty ipsum translator](#8-build-a-kitty-ipsum-translator)
     - [9: build a bike rental shop](#9-build-a-bike-rental-shop)
     - [10: build a salon appointment scheduler](#10-build-a-salon-appointment-scheduler)
+    - [11: build a castle](#11-build-a-castle)
 
 ## Courses
 ### 1: learn bash by building a boilerplate
@@ -161,6 +162,15 @@ create an interactive bash program that uses postgresql to track the customers a
 1|[examples.txt](./10_salon_appointment_scheduler/examples.txt)|sample output of the script
 2|[salon.sh](./10_salon_appointment_scheduler/salon.sh)|script for salon appointment scheduler
 3|[salon.sql](./10_salon_appointment_scheduler/salon.sql)|salon database dump file
+
+<hr/>
+
+### 11: build a castle
+learn how to edit files in the terminal with nano while building a castle
+
+#|name|description
+:-:|:-:|:--
+1|[castle.sh](./11_build_a_castle/castle.sh)|display a castle script
 
 <hr/>
 
