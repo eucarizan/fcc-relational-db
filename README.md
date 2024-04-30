@@ -13,6 +13,7 @@
     - [9: build a bike rental shop](#9-build-a-bike-rental-shop)
     - [10: build a salon appointment scheduler](#10-build-a-salon-appointment-scheduler)
     - [11: build a castle](#11-build-a-castle)
+    - [12: build an sql reference object](#12-build-an-sql-reference-object)
 
 ## Courses
 ### 1: learn bash by building a boilerplate
@@ -171,6 +172,15 @@ learn how to edit files in the terminal with nano while building a castle
 #|name|description
 :-:|:-:|:--
 1|[castle.sh](./11_build_a_castle/castle.sh)|display a castle script
+
+<hr/>
+
+### 12: build an sql reference object
+learn how git keeps track of your code by creating an object containing commonly used sql commands
+
+#|name|description
+:-:|:-:|:--
+|[](./)|
 
 <hr/>
 
