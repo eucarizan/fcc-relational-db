@@ -11,6 +11,7 @@
     - [7: build a world cup database](#7-build-a-world-cup-database)
     - [8: build a kitty ipsum translator](#8-build-a-kitty-ipsum-translator)
     - [9: build a bike rental shop](#9-build-a-bike-rental-shop)
+    - [10: build a salon appointment scheduler](#10-build-a-salon-appointment-scheduler)
 
 ## Courses
 ### 1: learn bash by building a boilerplate
@@ -149,6 +150,17 @@ build an interactive bash program that stores rental information for your bike r
 
 bash keywords
 - `case`
+
+<hr/>
+
+### 10: build a salon appointment scheduler
+create an interactive bash program that uses postgresql to track the customers and appointments for your salon
+
+#|name|description
+:-:|:-:|:--
+1|[examples.txt](./10_salon_appointment_scheduler/examples.txt)|sample output of the script
+2|[salon.sh](./10_salon_appointment_scheduler/salon.sh)|script for salon appointment scheduler
+3|[salon.sql](./10_salon_appointment_scheduler/salon.sql)|salon database dump file
 
 <hr/>
 
